@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtNomeFuncionario"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:hint="Nome do Funcionário"
+        android:inputType="textPersonName"
+
+        />
+    <EditText
+        android:id="@+id/txtValorHoraTrabalhada"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:hint="Valor da Hora Trabalhada"
+        android:inputType="numberDecimal"
+
+        />
+    <EditText
+        android:id="@+id/txtDiasTrabalhados"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:hint="Qtd. Dias Trabalhados"
+        android:inputType="number"
+
+        />
+    <EditText
+        android:id="@+id/txtQtdHorasDias"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:hint="Qtd. Horas Dias"
+        android:inputType="number"
+
+        />
+
+    <TextView
+        android:id="@+id/lblSalarioBruto"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Salario Bruto:"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="16dp"
+
+        />
+    <TextView
+        android:id="@+id/lblDescISS"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Desc. ISS:"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:textSize="16dp"
+
+        />
+
+</LinearLayout>
+
