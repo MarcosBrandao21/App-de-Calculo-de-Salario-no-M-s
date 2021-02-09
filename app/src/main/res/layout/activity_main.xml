@@ -15,6 +15,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginRight="15dp"
         android:gravity="center"
+        android:background="@drawable/round_text"
         android:hint="Nome do Funcionário"
         android:inputType="textPersonName"
 
@@ -27,6 +28,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginRight="15dp"
         android:gravity="center"
+        android:background="@drawable/round_text"
         android:hint="Valor da Hora Trabalhada"
         android:inputType="numberDecimal"
 
@@ -39,6 +41,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginRight="15dp"
         android:gravity="center"
+        android:background="@drawable/round_text"
         android:hint="Qtd. Dias Trabalhados"
         android:inputType="number"
 
@@ -51,6 +54,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginRight="15dp"
         android:gravity="center"
+        android:background="@drawable/round_text"
         android:hint="Qtd. Horas Dias"
         android:inputType="number"
 
@@ -59,8 +63,9 @@
     <TextView
         android:id="@+id/lblSalarioBruto"
         android:layout_width="wrap_content"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:text="Salario Bruto:"
+        android:textStyle="bold"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="15dp"
@@ -70,12 +75,53 @@
     <TextView
         android:id="@+id/lblDescISS"
         android:layout_width="wrap_content"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:text="Desc. ISS:"
+        android:textStyle="bold"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="5dp"
         android:textSize="16dp"
+
+        />
+
+    <TextView
+        android:id="@+id/lblDescFGTS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desc. FGTS:"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:textSize="16dp"
+
+        />
+
+    <TextView
+        android:id="@+id/lblSalarioLiquido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salario Liquido"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:textSize="16dp"
+
+        />
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:textSize="18dp"
+        android:textColor="#fdfdfd"
+        android:padding="16dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/round_btn"
 
         />
 
