@@ -7,6 +7,11 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        Thread.sleep(1000)
+
+        setTheme(R.style.AppTheme)
+
         setContentView(R.layout.activity_main)
         
         btnCalcular.setOnClickListener {
